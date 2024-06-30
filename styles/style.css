@@ -131,6 +131,11 @@ header > h1 {
   width: 200px;
   height: auto;
   max-width: 100%;
+  cursor: pointer;
+}
+
+.sectionInfos__block div img:hover {
+  opacity: 0.7;
 }
 
 .sectionInfos__block div p {
@@ -200,6 +205,12 @@ header > h1 {
 }
 
 .footerSection {
+  display: flex;
+  justify-content: center;
   background-color: var(--clr-backgrnd-infoHeader-quoteText);
   padding: 30px 0;
+}
+
+.footerSection h5 {
+  color: var(--clr-headerLink-quoteSection);
 }
