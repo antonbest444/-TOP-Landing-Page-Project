@@ -113,15 +113,28 @@ header > h1 {
 
 .sectionInfos {
   text-align: center;
+  padding-bottom: 40px;
+}
+
+.sectionInfos__block {
+  display: flex;
+  justify-content: space-around;
 }
 
 .sectionInfos > h3 {
   color: var(--clr-backgrnd-infoHeader-quoteText);
   font-size: var(--fnt-infoHeader-quoteText-size);
+  margin-bottom: 54px;
 }
 
 .sectionInfos__block div img {
   width: 200px;
   height: auto;
   max-width: 100%;
+}
+
+.sectionInfos__block div p {
+  font-size: var(--fnt-secondText-headerLink-size);
+  font-weight: var(--stl-mainText-infoHeader-extraBold);
+  color: var(--clr-backgrnd-infoHeader-quoteText);
 }
