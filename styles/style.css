@@ -5,8 +5,14 @@
 }
 
 :root {
-  --clr-hero-footer: #1f2937;
-  --clr-main-text-title: #f9faf8;
-  --clr-secondary-text-link: #e5e7eb;
-  --clr-logo-text: #f9faf8;
+  --clr-backgrnd-infoHeader-quoteText: #1f2937;
+  --clr-mainText-logoText: #f9faf8;
+  --clr-headerLink-quoteSection: #e5e7eb;
+  --clr-button-color: #3882f6;
+  --fnt-main-text-size: 48px;
+  --fnt-secondText-headerLink-size: 18px;
+  --fnt-header-logo-size: 24px;
+  --fnt-infoHeader-quoteText-size: 36px;
+  --stl-mainText-infoHeader-extraBold: 700;
+  --stl-quoteText-italic: italic;
 }
