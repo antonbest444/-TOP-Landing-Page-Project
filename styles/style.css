@@ -16,3 +16,40 @@
   --stl-mainText-infoHeader-extraBold: 700;
   --stl-quoteText-italic: italic;
 }
+
+html,
+main {
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: Helvetica, Arial;
+  line-height: 1.5;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--clr-headerLink-quoteSection);
+  padding: 1rem;
+}
+
+header > h1 {
+  margin-left: 30px;
+  color: var(--clr-mainText-logoText);
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-backgrnd-infoHeader-quoteText);
+}
