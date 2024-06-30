@@ -27,6 +27,8 @@ main {
   line-height: 1.5;
 }
 
+/* HEADER */
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -44,6 +46,7 @@ header > h1 {
   margin-left: 3rem;
   color: var(--clr-mainText-logoText);
   cursor: pointer;
+  font-size: var(--fnt-header-logo-size);
 }
 
 .header {
@@ -52,6 +55,8 @@ header > h1 {
   align-items: center;
   background-color: var(--clr-backgrnd-infoHeader-quoteText);
 }
+
+/* FIRST SECTION */
 
 .sectionTop {
   display: flex;
@@ -73,6 +78,7 @@ header > h1 {
 
 .sectionTop__blockText > h1 {
   color: var(--clr-mainText-logoText);
+  font-size: var(--fnt-main-text-size);
 }
 
 .sectionTop__text--modifier {
@@ -101,4 +107,21 @@ header > h1 {
 }
 .sectionTop__button--modifier:active {
   opacity: 0.5;
+}
+
+/* Second Section */
+
+.sectionInfos {
+  text-align: center;
+}
+
+.sectionInfos > h3 {
+  color: var(--clr-backgrnd-infoHeader-quoteText);
+  font-size: var(--fnt-infoHeader-quoteText-size);
+}
+
+.sectionInfos__block div img {
+  width: 200px;
+  height: auto;
+  max-width: 100%;
 }
