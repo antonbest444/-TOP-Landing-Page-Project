@@ -20,10 +20,9 @@
 html,
 main {
   max-width: 1440px;
-  height: 100vh;
+  height: 300vh;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   font-family: Helvetica, Arial;
   line-height: 1.5;
 }
@@ -42,7 +41,7 @@ nav ul li a {
 }
 
 header > h1 {
-  margin-left: 30px;
+  margin-left: 3rem;
   color: var(--clr-mainText-logoText);
   cursor: pointer;
 }
@@ -52,4 +51,54 @@ header > h1 {
   justify-content: space-between;
   align-items: center;
   background-color: var(--clr-backgrnd-infoHeader-quoteText);
+}
+
+.sectionTop {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--clr-backgrnd-infoHeader-quoteText);
+  padding-bottom: 40px;
+  margin-bottom: 4rem;
+}
+
+.sectionTop__blockText {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  gap: 1rem;
+  margin-top: 60px;
+}
+
+.sectionTop__blockText > h1 {
+  color: var(--clr-mainText-logoText);
+}
+
+.sectionTop__text--modifier {
+  color: var(--clr-mainText-logoText);
+}
+
+.sectionTop__img--size {
+  width: 300px;
+  height: 0 auto;
+}
+
+.sectionTop__button--modifier {
+  width: 8rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--clr-button-color);
+  color: var(--clr-mainText-logoText);
+  font-weight: var(--stl-mainText-infoHeader-extraBold);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.sectionTop__button--modifier:hover {
+  opacity: 0.8;
+}
+.sectionTop__button--modifier:active {
+  opacity: 0.5;
 }
