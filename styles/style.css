@@ -161,11 +161,9 @@ header > h1 {
 
 /* FOURTH SECTION */
 
-.sectionSignup {
-  text-align: left;
-}
-
 .sectionSignup__block {
+  display: flex;
+  flex-direction: column;
   background-color: var(--clr-button-color);
   color: var(--clr-headerLink-quoteSection);
   margin-top: 54px;
@@ -173,4 +171,29 @@ header > h1 {
   width: 50%;
   margin-inline: auto;
   border-radius: 10px;
+  position: relative;
+}
+
+.sectionSignup__button--modifier {
+  position: absolute;
+  top: 3.5rem;
+  display: flex;
+  align-self: end;
+  padding: 0.5rem 1rem;
+  background-color: var(--clr-button-color);
+  color: var(--clr-headerLink-quoteSection);
+  border: 2px solid var(--clr-headerLink-quoteSection);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+  font-weight: var(--stl-mainText-infoHeader-extraBold);
+}
+
+.sectionSignup__button--modifier:hover {
+  background-color: var(--clr-headerLink-quoteSection);
+  color: var(--clr-button-color);
+}
+
+.sectionSignup__button--modifier:active {
+  opacity: 0.5;
 }
