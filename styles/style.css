@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-hero-footer: #1f2937;
+  --clr-main-text-title: #f9faf8;
+  --clr-secondary-text-link: #e5e7eb;
+  --clr-logo-text: #f9faf8;
+}
